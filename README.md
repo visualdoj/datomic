@@ -1,6 +1,6 @@
-= datomic
+# datomic
 
-== Overview
+## Overview
 
 The library wraps some primitive types (integer, boolean and pointer) as `object`s. Each has initializer `Init` that sets initial value and finalizer `Done`. Each has methods `SetValue`, `GetValue` and a property `Value`. There are some other useful methods like `Inc`, `CompareExchangeStrong` etc.
 
